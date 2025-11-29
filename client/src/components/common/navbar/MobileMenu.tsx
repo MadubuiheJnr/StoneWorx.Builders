@@ -20,7 +20,7 @@ const MobileMenu = () => {
   }, [showMenu]);
 
   return (
-    <div className="">
+    <div className="overflow-y-auto">
       {!showMenu && (
         <Button
           onClick={() => setShowMenu(true)}
