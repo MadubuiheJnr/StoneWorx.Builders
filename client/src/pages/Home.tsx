@@ -1,4 +1,8 @@
+import AboutUs from "@/components/AboutUs";
 import Hero from "@/components/common/Hero";
+import OurAdvantages from "@/components/OurAdvantages";
+import OurProjects from "@/components/OurProjects";
+import WhatWeDo from "@/components/WhatWeDo";
 
 const Home = () => {
   return (
@@ -10,6 +14,10 @@ const Home = () => {
         btnAffirmText="Enquire Now"
         btnNoAffirmText="View Our Work"
       />
+      <OurAdvantages />
+      <AboutUs />
+      <WhatWeDo />
+      <OurProjects />
     </div>
   );
 };
