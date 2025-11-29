@@ -49,7 +49,7 @@ const Hero = ({
             {subTitle}
           </p>
 
-          <div className="mt-20 flex flex-row justify-center gap-x-5">
+          <div className="mt-30 flex flex-row justify-center gap-x-5">
             <Button
               className="  bg-accent-foreground text-accent hover:bg-accent-foreground cursor-pointer font-semibold
             lg:w-50 lg:h-11"
