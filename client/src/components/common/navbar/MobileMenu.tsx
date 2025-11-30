@@ -32,7 +32,7 @@ const MobileMenu = () => {
       )}
 
       {showMenu && (
-        <div className="fixed min-h-screen inset-0 z-50 bg-primary p-5 flex flex-col flex-wrap justify-between overflow-y-auto">
+        <div className="fixed inset-0 z-50 bg-primary p-5 flex flex-col justify-between overflow-y-auto touch-pan-y">
           <p className="w-full flex items-center justify-end">
             <Button
               onClick={() => setShowMenu(false)}
