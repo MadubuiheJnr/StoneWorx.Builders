@@ -8,7 +8,7 @@ const DesktopMenu = () => {
         <NavLink
           key={link.id}
           to={link.slug}
-          className={`uppercase text-sm text-neutral-100 hover:text-neutral-300 hover:border-b hover:border-b-neutral-300 p-2 transition-all duration-300 ease-in-out`}
+          className={`uppercase text-xs text-accent hover:text-muted hover:border-b hover:border-muted-foreground p-2 transition-colors duration-300 ease-in-out`}
         >
           {link.label}
         </NavLink>

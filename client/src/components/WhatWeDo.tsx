@@ -66,15 +66,15 @@ const WhatWeDo = () => {
             >
               <div
                 key={data.id}
-                className="self-end flex flex-col items-center text-center bg-secondary p-3 rounded-3xl"
+                className="self-end flex flex-col items-center text-center bg-card/5 backdrop-blur-xs p-3 rounded-3xl"
               >
-                <data.Icon className="text-primary" size={25} />
-                <p className="text-lg font-bold text-primary mt-2">
-                  {data.title}
-                </p>
-                <p className="text-sm text-muted-foreground">{data.desc}</p>
+                <data.Icon className="text-card" size={25} />
+                <p className="text-lg font-bold text-card mt-2">{data.title}</p>
+                <p className="text-sm text-muted text-center">{data.desc}</p>
 
-                <Button className="mt-3 cursor-pointer">Learn More</Button>
+                <Button className="mt-3 cursor-pointer bg-accent-foreground text-accent">
+                  Learn More
+                </Button>
               </div>
             </div>
           ))}

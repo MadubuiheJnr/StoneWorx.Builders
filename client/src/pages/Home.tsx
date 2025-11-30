@@ -1,7 +1,9 @@
 import AboutUs from "@/components/AboutUs";
 import Hero from "@/components/common/Hero";
+import ContactCta from "@/components/ContactCta";
 import OurAdvantages from "@/components/OurAdvantages";
 import OurProjects from "@/components/OurProjects";
+import Testimonials from "@/components/Testimonials";
 import WhatWeDo from "@/components/WhatWeDo";
 
 const Home = () => {
@@ -18,6 +20,8 @@ const Home = () => {
       <AboutUs />
       <WhatWeDo />
       <OurProjects />
+      <ContactCta />
+      <Testimonials />
     </div>
   );
 };

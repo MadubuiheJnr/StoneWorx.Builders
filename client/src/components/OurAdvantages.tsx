@@ -30,10 +30,10 @@ const ourAdvantagesData: OurAdvantages[] = [
 const OurAdvantages = () => {
   return (
     <div
-      className="bg-secondary w-[85%] mx-auto p-5 rounded-2xl -translate-y-20 drop-shadow-xs
+      className="bg-card w-[85%] mx-auto p-5 rounded-2xl -translate-y-20 drop-shadow-xs border border-border
     lg:p-7 lg:pb-10"
     >
-      <p className="text-sm font-light text-neutral-800 p-1 flex items-center justify-end">
+      <p className="text-sm font-light text-card-foreground p-1 flex items-center justify-end">
         <span className=" border-b font-semibold">Our Advantages</span>
       </p>
 
@@ -43,10 +43,12 @@ const OurAdvantages = () => {
       >
         {ourAdvantagesData.map((data) => (
           <div key={data.id}>
-            <span className="inline-block p-3 bg-secondary-foreground text-primary-foreground rounded-full">
+            <span className="inline-block p-3 bg-card-foreground text-card rounded-full">
               <data.icon size={20} />
             </span>
-            <p className="text-base font-semibold text-primary">{data.title}</p>
+            <p className="text-base font-semibold text-card-foreground">
+              {data.title}
+            </p>
             <p className="text-sm text-muted-foreground">{data.desc}</p>
           </div>
         ))}
