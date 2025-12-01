@@ -4,7 +4,9 @@ import ContactCta from "@/components/ContactCta";
 import OurAdvantages from "@/components/OurAdvantages";
 import OurProjects from "@/components/OurProjects";
 import Testimonials from "@/components/Testimonials";
+import TrustedAndTested from "@/components/TrustedAndTested";
 import WhatWeDo from "@/components/WhatWeDo";
+import WhyUs from "@/components/WhyUs";
 
 const Home = () => {
   return (
@@ -22,6 +24,8 @@ const Home = () => {
       <OurProjects />
       <ContactCta />
       <Testimonials />
+      <TrustedAndTested />
+      <WhyUs />
     </div>
   );
 };

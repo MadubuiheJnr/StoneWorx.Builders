@@ -41,18 +41,17 @@ const WhatWeDo = () => {
         className="
     lg:w-[85%] lg:mx-auto "
       >
-        <p
-          className="w-[35%] mx-auto text-center font-semibold uppercase text-primary text-sm p-1 border-b border-b-muted-foreground
-      lg:w-[10%]"
-        >
-          What we do
-        </p>
-        <p
-          className="text-center mt-2 text-xl font-bold text-primary
+        <div className="text-center p-5">
+          <p className="inline-block uppercase text-primary font-semibold text-xs p-1 border-b border-b-muted-foreground">
+            What we do
+          </p>
+          <p
+            className="text-center mt-2 text-2xl font-bold text-primary
         lg:w-[60%] lg:mx-auto lg:text-5xl"
-        >
-          Our Full-Spectrum Construction services
-        </p>
+          >
+            Our Full-Spectrum Construction services
+          </p>
+        </div>
 
         <div
           className="mt-10 
